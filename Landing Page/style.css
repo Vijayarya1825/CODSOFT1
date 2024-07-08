@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    vox-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    widht: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    widht: 100%;
+    background-color: #000;
+}
+#nav{
+    height: 120px;
+    widht: 100%;
+    /*background: red;*/
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+
+#nav-prt2{
+    display: flex;
+    /*background: blue;*/
+    width:60%;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+
+}
+#nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#nav h5{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#nav img{
+    height: 40px;
+}
+#line{
+    width: 70px;
+    height: 2px;
+    background-color: red;
+}
+
+#content{
+    height: calc(100% - 120px);
+    widht: 100%;
+    /*background: lightblue;*/
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+#left{
+    width: 30%;
+    height: 90%;
+   /* background-color: red;*/
+    padding: 140px 80px;
+}
+#right{
+    width: 35%;
+    height: 100%;
+    /*background-color: orange;*/
+    padding: 150px 100px;
+}
+#center{
+    width: 26%;
+    height: 90%;
+    /*background-color: red;*/
+    padding: 25px;
+}
+#left h1{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+#left p{
+    margin-bottom: 70px;
+    font-size: 12px;
+    width: 60;
+    line-height: 18px;
+}
+
+#left button{
+    background-color: red;
+    padding: 20px 42px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-top: -20px;
+}
+#left button i{
+    margin-right: 10px;
+}
+#center-bg{
+    background-color: blue;
+    height: 85%;
+    width: 100%;
+   border-top-left-radius: 1000px;
+   border-top-right-radius: 1000px;
+   background-image: url(https://steamuserimages-a.akamaihd.net/ugc/172664880136202053/45810DCF5FC3CBB1C5728D62DBFF8F1A8B97E395/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+   background-size: 120%;
+   background-position: 30% 50%;
+}
+
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 46%;
+    transform: translate(-50%,0);
+}
+
+#right-elems{
+   /* background-color: red;*/
+    width: 300px;
+    
+}
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+   /* background-color: blue;*/
+    border-bottom: 1px solid #fff;
+}
+
+#elem h1{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+#elem i{
+    font-size: 24px;
+}
+#elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+#elem p{
+    font-size: 12px;
+    width: 70%;
+}
